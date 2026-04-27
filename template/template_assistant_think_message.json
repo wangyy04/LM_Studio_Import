@@ -1,0 +1,58 @@
+{
+  "versions": [
+    {
+      "type": "multiStep",
+      "role": "assistant",
+      "senderInfo": {
+        "senderName": "{{模型id}}"
+      },
+      "steps": [
+        {
+          "type": "contentBlock",
+          "stepIdentifier": "{{思考时间戳}}",
+          "content": [
+            {
+              "type": "text",
+              "text": "{{助手思考内容}}",
+              "fromDraftModel": false,
+              "tokensCount": {{思考token消耗}},
+              "isStructural": false
+            }
+          ],
+          "defaultShouldIncludeInContext": true,
+          "shouldIncludeInContext": true,
+          "prefix": "",
+          "suffix": "</think>",
+          "style": {
+            "type": "thinking",
+            "ended": true,
+            "title": "Thought for {{思考用时}} seconds",
+            "forceRenderAsPlainText": false
+          }
+        },
+        {
+          "type": "contentBlock",
+          "stepIdentifier": "{{消息时间戳}}",
+          "content": [
+            {
+              "type": "text",
+              "text": "{{助手消息内容}}",
+              "fromDraftModel": false,
+              "tokensCount": {{消息token消耗}},
+              "isStructural": false
+            }
+          ],
+          "genInfo": {},
+          "defaultShouldIncludeInContext": true,
+          "shouldIncludeInContext": true
+        },
+        {
+          "type": "debugInfoBlock",
+          "stepIdentifier": "{{调试信息时间戳}}",
+          "debugInfo": "Conversation naming technique: '{{标题生成方式}}'"
+        }
+      ]
+    }
+  ],
+  "currentlySelected": 0
+}

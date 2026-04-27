@@ -1,0 +1,35 @@
+{
+  "versions": [
+    {
+      "type": "multiStep",
+      "role": "assistant",
+      "senderInfo": {
+        "senderName": "{{模型id}}"
+      },
+      "steps": [
+        {
+          "type": "contentBlock",
+          "stepIdentifier": "{{消息时间戳}}",
+          "content": [
+            {
+              "type": "text",
+              "text": "{{助手消息内容}}",
+              "fromDraftModel": false,
+              "tokensCount": {{消息token消耗}},
+              "isStructural": false
+            }
+          ],
+          "genInfo": {},
+          "defaultShouldIncludeInContext": true,
+          "shouldIncludeInContext": true
+        },
+        {
+          "type": "debugInfoBlock",
+          "stepIdentifier": "{{调试信息时间戳}}",
+          "debugInfo": "Conversation naming technique: '{{标题生成方式}}'"
+        }
+      ]
+    }
+  ],
+  "currentlySelected": 0
+}

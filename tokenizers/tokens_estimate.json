@@ -1,0 +1,17 @@
+{
+  "Qwen": {
+    "Chinese": 0.6061,
+    "English": 0.2857,
+    "Others": 1.0
+  },
+  "DeepSeek": {
+    "Chinese": 0.6,
+    "English": 0.3,
+    "Others": 1.0
+  },
+  "Others": {
+    "Chinese": 0.6,
+    "English": 0.3,
+    "Others": 1.0
+  }
+}

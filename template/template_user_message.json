@@ -1,0 +1,15 @@
+{
+    "versions": [
+      {
+        "type": "singleStep",
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "{{用户消息}}"
+          }
+        ]
+      }
+    ],
+    "currentlySelected": 0
+}

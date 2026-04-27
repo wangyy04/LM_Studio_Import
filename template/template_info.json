@@ -1,0 +1,22 @@
+{
+  "name": "{{对话名称}}",
+  "pinned": false,
+  "createdAt": {{创建时间}},
+  "preset": "",
+  "tokenCount": {{token总消耗}},
+  "userLastMessagedAt": {{最后用户消息时间}},
+  "assistantLastMessagedAt": {{最后助手消息时间}},
+  "systemPrompt": "",
+  "messages": "{{对话消息}}",
+  "usePerChatPredictionConfig": true,
+  "perChatPredictionConfig": {},
+  "clientInput": "",
+  "clientInputFiles": [],
+  "userFilesSizeBytes": 0,
+  "lastUsedModel": {},
+  "notes": [],
+  "plugins": [],
+  "pluginConfigs": {},
+  "disabledPluginTools": [],
+  "looseFiles": []
+}
