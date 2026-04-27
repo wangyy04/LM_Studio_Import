@@ -2,7 +2,7 @@
 
 # LM Studio对话导入工具
 
-
+[![GitHub 仓库](https://img.shields.io/badge/GitHub-Repo-yellow.svg?logo=github)](https://github.com/wangyy04/LM_Studio_Import)
 [![Python 版本](https://img.shields.io/badge/python-%20%3E3.10-blue.svg?logo=python&label=Python)](https://www.python.org/downloads/)
 
 </div>
